@@ -1,0 +1,55 @@
+{
+    "type": "FILE",
+    "people": [
+        {
+            "first": "Emily",
+            "middle": "Elizabeth",
+            "last": "Hanson",
+            "hobbies": [
+                "archery",
+                "rafting",
+                "shogi"
+            ],
+            "age": 44,
+            "children": [
+                {
+                    "first": "Richard",
+                    "middle": "William",
+                    "age": 17
+                },
+                {
+                    "first": "George",
+                    "middle": "Thomas",
+                    "age": 14
+                },
+                {
+                    "first": "May",
+                    "middle": "Florence",
+                    "age": 11
+                }
+            ]
+        },
+        {
+            "first": "Florence",
+            "middle": "M",
+            "last": "Wyatt",
+            "hobbies": [
+                "scuba diving",
+                "travel"
+            ],
+            "age": 31,
+            "children": [
+                {
+                    "first": "Ivy",
+                    "middle": "Francis",
+                    "age": 6
+                },
+                {
+                    "first": "Frederick",
+                    "middle": "William",
+                    "age": 9
+                }
+            ]
+        }
+    ]
+}

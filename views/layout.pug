@@ -1,0 +1,26 @@
+block variables
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="theme-color", content="#000000")
+        title People | #{title}
+        link(rel="stylesheet" href="/style.css")
+    body
+        div#nav
+            //h1.banner People Data
+
+            ul#menu
+                li 
+                    a.navigation(href="/") Home
+                li
+                    a.navigation(href="/pretty/file") Pretty Print JSON from file
+                li
+                    a.navigation(href="/raw/file") Raw JSON from file
+                li
+                    a.navigation(href="/pretty/string") Pretty Print JSON from string
+                li
+                    a.navigation(href="/raw/string") Raw JSON from string
+
+            block layout-content
